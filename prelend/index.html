@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>title</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="flex">
+<header class="header">
+	<div class="header__container container">
+		<div class="logo logo_header">
+			<img src="img/logo.png" alt="logo" class="logo">
+		</div>
+		<nav class="nav">
+			<span class="nav__item">ГЛАВНАЯ</span>
+			<span class="nav__item">КОРОНАВИРУС </span>
+			<span class="nav__item">СТАТЬИ </span>
+			<span class="nav__item">ВОПРОС-ОТВЕТ </span>
+			<span class="nav__item">О НАС</span>
+		</nav>
+
+		<div class="header__right">
+			<input type="text" placeholder="поиск" class="header__input">
+			<div class="search">
+				<svg viewBox="373.3 133.3 533.3 533.3" class="search" xmlns="http://www.w3.org/2000/svg">
+					<path d="M754.7 468.7l-22.3-22.3c24.3-33.3 37.5-73.4 37.7-114.7 0-109.5-88.8-198.3-198.3-198.3s-198.3 88.8-198.3 198.3S462.1 530 571.7 530c41.2-.2 81.3-13.4 114.7-37.7l22.3 22.3 152.7 152 45.3-45.3-152-152.6zm-183 0c-75.8 0-137.3-61.5-137.3-137.3S495.8 194 571.7 194 709 255.5 709 331.3c.2 75.7-61 137.1-136.7 137.3-.2.1-.4.1-.6.1z"></path>
+				</svg>
+			</div>
+		</div>
+
+	</div>
+</header>
+
+<main class="container">
+	<h1 class="title">title</h1>
+	<h2 class="post__title"><span class="post-date"></span></h2>
+	<div class="soc">
+		<div class="soc__item">
+			<svg class="soc__svg soc__svg_facebook" viewBox="0 0 21.406 43.754" id="icon-facebook" xmlns="http://www.w3.org/2000/svg">
+				<path d="M5.43 43.754v-20.53H0V15.83h5.43V9.518C5.43 4.558 8.635 0 16.024 0c2.99 0 5.204.286 5.204.286l-.175 6.903s-2.257-.03-4.72-.03c-2.663 0-3.09 1.23-3.09 3.26v5.4h8.022l-.35 7.39h-7.672v20.53H5.43z"></path>
+			</svg>
+		</div>
+
+		<div class="soc__item">
+			<svg class="soc__svg soc__svg_twitter" viewBox="0 0 44.71 36.327" id="icon-twitter" xmlns="http://www.w3.org/2000/svg">
+				<path d="M44.71 4.295c-1.656.724-3.415 1.242-5.278 1.45A9.146 9.146 0 0 0 43.468.673a18.75 18.75 0 0 1-5.796 2.225C35.965 1.138 33.584 0 30.945 0a9.145 9.145 0 0 0-9.16 9.16c0 .724.052 1.448.208 2.12-7.607-.413-14.335-3.88-18.888-9.417-.777 1.345-1.242 2.742-1.242 4.45 0 3.157 1.604 5.95 4.088 7.607a9.376 9.376 0 0 1-4.14-1.138v.103c0 4.45 3.16 8.176 7.35 9.004-.77.2-1.6.31-2.43.31-.57 0-1.14-.06-1.71-.16 1.14 3.62 4.56 6.31 8.54 6.36-3.1 2.48-7.09 4.34-11.38 4.34-.72 0-1.45-.05-2.17-.16 4.04 2.59 8.9 3.72 14.08 3.72 16.87 0 26.08-13.97 26.08-26.08V9.05c1.76-1.294 3.32-2.9 4.56-4.76"></path>
+			</svg>
+		</div>
+
+		<div class="soc__item soc__item_last">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 20" class="soc__svg soc__svg_share">
+				<path d="M18.4,12.9c-0.3,0-0.6,0.3-0.6,0.6V17c0,1-0.8,1.8-1.8,1.8H3c-1,0-1.8-0.8-1.8-1.8V4C1.2,3,2,2.2,3,2.2h8.4
+  c0.3,0,0.6-0.3,0.6-0.6S11.7,1,11.3,1H3C1.3,1,0,2.3,0,4V17c0,1.6,1.3,3,3,3H16c1.6,0,3-1.3,3-3v-3.5C19,13.2,18.7,12.9,18.4,12.9z"></path>
+				<path d="M20.9,5.3C20.9,5.3,20.9,5.3,20.9,5.3c0-0.1,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0,0
+  c0,0,0,0,0,0c0,0,0,0,0,0l-4.6-4.6c-0.2-0.2-0.6-0.2-0.8,0s-0.2,0.6,0,0.8l3.3,3.3c-2.1-0.3-5.5-0.3-8.5,1.5
+  C7.6,7.5,5.9,10,5.2,13.5c-0.1,0.3,0.1,0.6,0.5,0.7c0,0,0.1,0,0.1,0c0.3,0,0.5-0.2,0.6-0.5c0.6-3.1,2.1-5.4,4.3-6.8
+  c3-1.8,6.7-1.5,8.5-1.2l-3.8,3.9c-0.2,0.2-0.2,0.6,0,0.8c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2l4.6-4.6c0,0,0,0,0,0
+  c0,0,0,0,0-0.1c0,0,0,0,0,0c0,0,0,0,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0-0.1C20.9,5.4,20.9,5.4,20.9,5.3
+  C20.9,5.4,20.9,5.4,20.9,5.3z"></path>
+			</svg>
+			<span class="share">share</span>
+		</div>
+	</div>
+
+	<section class="content">
+
+		<div class="post">
+			<p></p>
+			<p>
+				<img src="img/post1.jpg" alt="post-img">
+			</p>
+			<p>
+				<img src="img/post2.jpg" alt="post-img">
+			</p>
+			<p>
+				<img src="img/product.jpg" alt="product">
+			</p>
+			<p>
+				<img src="img/product2.jpg" alt="product">
+			</p>
+
+			<form class="all-form">
+				<div class="all-form__time">
+					Всё, что Вам нужно – это ввести имя и номер телефона. <span>Поторопитесь! У Вас осталось времени:</span>
+					<div class="all-form__count">
+						<span class="all-form__min">10</span>:<span class="all-form__sec">00</span>
+					</div>
+				</div>
+				<div class="all-form__body">
+					<div class="all-form__title">Форма заявки <span>Продукт</span></div>
+					<div class="all-form__box">
+						<div class="all-form__label">
+							<span>Ваша страна:</span>
+							<select class="all-form__field all-form__select">
+								<option selected value="">Россия</option>
+								<option value=""></option>
+								<option value=""></option>
+							</select>
+						</div>
+						<div class="all-form__label">
+							<span>Ваше имя:</span>
+							<input class="all-form__field" type="text" placeholder="Введите ваше имя">
+						</div>
+						<div class="all-form__label">
+							<span>Телефон:</span>
+							<input class="all-form__field" type="text" placeholder="Введите ваш телефон">
+						</div>
+					</div>
+					<div class="all-form__footer">
+						<button class="all-form__btn">Получить с 50% скидкой</button>
+						<div class="all-form__prices">
+							<div class="all-form__price-new">39 EUR</div>
+							<div class="all-form__price-old">78 EUR</div>
+						</div>
+					</div>
+				</div>
+			</form>
+
+			<section class="comment-block">
+				<div class="comment-header">
+					<span class="comment-heading">Комментарии:</span>
+				</div>
+				<div class="comment-main">
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm1.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+					<div class="comment ">
+						<div class="avatar" style="background-image: url('img/comm2.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm3.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm4.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm5.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm6.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm7.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm8.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+					<div class="comment">
+						<div class="avatar" style="background-image: url('img/comm9.jpg')">
+						</div>
+						<div class="comment-content">
+							<div class="comment-info">
+								<span class="comment-name">name</span> <span class="comment-circle"></span>
+								<span class="comment-date"></span>
+							</div>
+							<div class="comment-text"></div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<aside class="aside">
+			<div class="aside__header">
+				<h3 class="aside__title">Последние:</h3>
+			</div>
+			<div class="aside__item">
+				<img src="img/aside1.jpg" alt="aside-img" class="aside__img">
+				<p class="aside__text">Осложнения сколиоза</p>
+			</div>
+			<div class="aside__item">
+				<img src="img/aside2.jpg" alt="aside-img" class="aside__img">
+				<p class="aside__text">Семь причин посещать вертебролога</p>
+			</div>
+			<div class="aside__item">
+				<img src="img/aside3.jpg" alt="aside-img" class="aside__img">
+				<p class="aside__text">Физические упражнения для здоровой спины</p>
+			</div>
+		</aside>
+
+	</section>
+</main>
+<footer class="footer">
+	<div class="footer__container container">
+		<div class="footer__left">
+			<img src="img/footer1.gif" alt="footer-img" class="footer__img">
+		</div>
+		<div class="footer__center">
+			<p class="footer__text">This site is for educational purposes only; no information is intended or implied to be a substitute for professional medical advice. The information is produced and reviewed by over 200 medical professionals with the goal of providing trusted, uniquely informative information for people with painful health conditions.</p>
+			<p class="footer__text">© 1999-<span class="footer-date footer__text"></span> Veritas Health, LLC. All rights reserved. Veritas Health, LLC, 520 Lake Cook Road, Suite 350, Deerfield, IL, 60015.</p>
+			<p class="footer__text">prime  |  version.2021.02.058-<span class="footer-date footer__text"></span>.02.006</p>
+		</div>
+		<div class="logo logo_footer">
+			<img src="img/logo__footer.png" alt="logo" class="logo">
+		</div>
+	</div>
+</footer>
+
+<script src="js/date.js"></script>
+<script src="js/form.js"></script>
+<script src="js/jquery.js"></script>
+</body>
+</html>
