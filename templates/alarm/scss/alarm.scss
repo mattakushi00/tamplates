@@ -4,54 +4,60 @@
 	margin: 0 auto;
 	padding: 30px;
 
-	&-wrap {
+	&__wrap {
+		background: url("../../assets/img/alarm-bg.jpg") no-repeat 10% 50% / cover;
+		position: relative;
+		max-width: 1000px;
 		display: flex;
-		justify-content: space-between;
 		flex-wrap: wrap;
 		align-items: center;
-		position: relative;
+		justify-content: space-between;
+		margin: 0 auto;
 		padding: 30px 40px;
 		border: 1px solid #ccc;
 		border-radius: 10px;
-		background: url("../../assets/imgs/alarm-bg.jpg") no-repeat 10% 50% / cover;
-		max-width: 1000px;
-		margin: 30px auto;
 
 		&:before {
 			content: '';
-			display: block;
-			background: url("../../assets/imgs/alarm-before.png") no-repeat center;
-			width: 55px;
-			height: 49px;
+			background: url("../../assets/img/alarm-before.png") no-repeat center;
 			position: absolute;
 			top: 0;
 			bottom: 0;
 			left: -28px;
+			width: 55px;
+			height: 49px;
+			display: block;
 			margin: auto;
 		}
 	}
 
-	&-left {
+	&__left {
 		max-width: 210px;
 		flex: 1 0 100%;
 		margin: 10px 10px 10px 0;
 	}
 
-	&-title {
+	&__title {
 		font-size: 16px;
 		font-weight: 700;
 		color: #000;
 	}
 
-	&-right {
+	&__right {
 		font-weight: 400;
 		max-width: 630px;
 		flex: 1 0 100%;
 		margin: 10px 0;
 	}
+
+	&__text {
+		font-size: 16px;
+		color: #000;
+		margin: 0;
+	}
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
 	.alarm {
 		padding: 30px 10px 30px 40px;
 	}

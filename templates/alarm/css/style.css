@@ -1,65 +1,65 @@
 .alarm {
+		box-sizing: border-box;
 		font-family: 'Arial', sans-serif;
 		width: 100%;
 		max-width: 1920px;
 		margin: 0 auto;
 		padding: 30px;
-		box-sizing: border-box;
 }
 
-.alarm-wrap {
-		max-width: 1000px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
+.alarm__wrap {
+		box-sizing: border-box;
 		background: url('../img/alarm-bg.jpg') no-repeat 10% 50%/cover;
 		position: relative;
+		max-width: 1000px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		margin: 0 auto;
 		padding: 30px 40px;
-		border-radius: 10px;
 		border: 1px solid #ccc;
-		box-sizing: border-box;
+		border-radius: 10px;
 }
 
-.alarm-wrap:before {
+.alarm__wrap:before {
 		content: '';
-		display: block;
 		background: url('../img/alarm-before.png') no-repeat center;
-		width: 55px;
-		height: 49px;
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		left: -28px;
+		width: 55px;
+		height: 49px;
+		display: block;
 		margin: auto;
 }
 
-.alarm-left {
+.alarm__left {
 		max-width: 210px;
 		flex: 1 0 100%;
 		margin: 10px 10px 10px 0;
 }
 
-.alarm-title {
+.alarm__title {
 		font-size: 16px;
 		font-weight: 700;
 		color: #000;
-		margin: 0;
 		text-transform: uppercase;
+		margin: 0;
 }
 
-.alarm-right {
+.alarm__right {
 		font-weight: 400;
 		max-width: 630px;
 		flex: 1 0 100%;
 		margin: 10px 0;
 }
 
-.alarm-text {
-		margin: 0;
-		color: #000;
+.alarm__text {
 		font-size: 16px;
+		color: #000;
+		margin: 0;
 }
 
 @media screen and (max-width: 576px) {
