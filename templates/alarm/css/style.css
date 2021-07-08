@@ -7,7 +7,7 @@
 		padding: 30px;
 }
 
-.alarm__wrap {
+.alarm__container {
 		box-sizing: border-box;
 		background: url('../img/alarm-bg.jpg') no-repeat 10% 50%/cover;
 		position: relative;
