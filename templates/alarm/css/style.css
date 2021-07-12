@@ -22,7 +22,7 @@
 		border-radius: 10px;
 }
 
-.alarm__wrap:before {
+.alarm__container:before {
 		content: '';
 		background: url('../img/alarm-before.png') no-repeat center;
 		position: absolute;
